@@ -14,7 +14,7 @@ class FimJogo:
     def prep_botão_replay(self):
         self.botão_replay_rect = self.botão_replay.get_rect()
         self.botão_replay_rect.centerx = self.tela_rect.centerx
-        self.botão_replay_rect.bottom = self.tela_rect.bottom - 90
+        self.botão_replay_rect.bottom = self.tela_rect.bottom - 60
         mouse_x, mouse_y = pygame.mouse.get_pos()
 
     def checa_eventos_replay(self, config, estatistica, tela, nave, aliens, balas, botão_play, pontuação, musica, melancia):
@@ -44,10 +44,10 @@ class RodGanha(FimJogo):
     def __init__(self, config):
         #Armazena as imagens em variáveis
         super().__init__(config)
-        self.rod_sorri = pygame.image.load('imagens/rod_sorri.bmp')
-        self.gato_chora = pygame.image.load('imagens/gato_chora.bmp')
+        self.rod_sorri = pygame.image.load('imagens/cebolinha-sorri.png')
+        self.gato_chora = pygame.image.load('imagens/gato-chora.png')
         self.melancia = pygame.image.load('imagens/melancia_grande.bmp')
-        self.botão_replay = pygame.image.load('imagens/replay.bmp')
+        self.botão_replay = pygame.image.load('imagens/restart.png')
 
         #Configurações de texto
         self.cor_texto = (253, 207, 0)
@@ -110,10 +110,10 @@ class AnaGanha(FimJogo):
     def __init__(self, config):
         # Armazena as imagens em variáveis
         super().__init__(config)
-        self.ana_sorri = pygame.image.load('imagens/ana_sorri.bmp')
-        self.gato_sorri = pygame.image.load('imagens/gato_sorri.bmp')
+        self.ana_sorri = pygame.image.load('imagens/magali-sorri.png')
+        self.gato_sorri = pygame.image.load('imagens/gato-sorri.png')
         self.suco = pygame.image.load('imagens/suco_de_melancia.bmp')
-        self.botão_replay = pygame.image.load('imagens/replay.bmp')
+        self.botão_replay = pygame.image.load('imagens/restart.png')
 
         # Configurações de texto
         self.cor_texto = (253, 207, 0)

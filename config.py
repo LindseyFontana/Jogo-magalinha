@@ -17,7 +17,7 @@ class Config():
         self.balas_permitidas = 3
 
         # Configurações dos alienígenas
-        self.velocidade_descida_frota = 15
+        self.velocidade_descida_frota = 25
 
         # Configurações das explosões
         self.começo_explosão = time.time()

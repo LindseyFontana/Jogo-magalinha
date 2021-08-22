@@ -12,13 +12,14 @@ from fim_jogo import RodGanha, AnaGanha
 from melancia import Melancia
 
 
+
 def inicia_jogo():
     #Inicializa o jogo e cria um objeto para a tela
     pygame.init()
     config = Config()
     tela = pygame.display.set_mode(
         (config.tela_largura, config.tela_altura))
-    pygame.display.set_caption("SUREIA")
+    pygame.display.set_caption("MAGALINHA")
 
     # Cria a espaçonave, um grupo de projéteis e um grupo de alienígenas
     nave = Nave(config, tela)

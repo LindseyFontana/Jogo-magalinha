@@ -14,7 +14,7 @@ class Alien(Sprite):
         self.começo_explosão = None
 
         #Carrega a imagem do alienígena e define seu atributo rect
-        self.image = pygame.image.load('imagens/rod.bmp')
+        self.image = pygame.image.load('imagens/cebolinha.png')
         self.rect = self.image.get_rect()
 
         #Inicia cada novo alienígena próximo à parte superior esquerda da tela
@@ -47,9 +47,9 @@ class Alien(Sprite):
     def explode(self, aliens, explosões):
         numero_aleatorio = randint(0, 1)
         if numero_aleatorio == 1:
-            self.image = pygame.image.load('imagens/explosão.bmp')
+            self.image = pygame.image.load('imagens/cebola2.png')
         else:
-            self.image = pygame.image.load('imagens/smack.bmp')
+            self.image = pygame.image.load('imagens/bang.png')
         self.começo_explosão = time.time()
         self.remove(aliens)
         self.add(explosões)

@@ -5,8 +5,8 @@ pygame.init()
 class Musica():
 
     def __init__(self):
-        self.rod_ganha = pygame.mixer.Sound('musicas/linger.ogg')
-        self.ana_ganha = pygame.mixer.Sound('musicas/folha_de_jurema.ogg')
+        self.rod_ganha = pygame.mixer.Sound('musicas/top-gear-perde.mp3')
+        self.ana_ganha = pygame.mixer.Sound('musicas/top-gear-vitoria.mp3')
         self.gato_mia = pygame.mixer.Sound('musicas/miado.ogg')
         pygame.mixer.music.load('musicas/melancia_explode.mp3')
 

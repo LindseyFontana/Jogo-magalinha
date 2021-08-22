@@ -8,7 +8,7 @@ class Nave(Sprite):
         super().__init__()
         self.tela = tela
         self.config = config
-        self.image = pygame.image.load('imagens/nave.bmp')
+        self.image = pygame.image.load('imagens/magali-braba.png')
         self.rect = self.image.get_rect()
         self.image_rect = self.rect
 

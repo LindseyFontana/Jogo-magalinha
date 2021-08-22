@@ -8,7 +8,7 @@ class Bala(Sprite):
         self.tela = tela
 
         #Cria um retângulo para o projétil em (0, 0) e, após, define a  posição correta
-        self.bala = pygame.image.load('imagens/gato_pequeno.bmp')
+        self.bala = pygame.image.load('imagens/gato-pequeno.png')
         self.rect = self.bala.get_rect()
         self.bala_rect = self.rect
         self.bala_rect.centerx = nave.image_rect.centerx
