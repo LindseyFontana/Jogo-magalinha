@@ -4,7 +4,7 @@ Hoje faria algumas modificações, mas é um trabalho que me orgulho de ter cons
 
 ### Tecnologias:
 
-* 🐍 Python 
+* 🪱 Python 
 * 🪱 Biblioteca PyGame
  
 ### Formato:
