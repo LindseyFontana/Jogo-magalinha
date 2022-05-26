@@ -5,7 +5,7 @@ Hoje faria algumas modificações, mas é um trabalho que me orgulho de ter cons
 ### Tecnologias:
 
 * 🐍 Python 
-* Biblioteca PyGame
+* 🪱 Biblioteca PyGame
  
 ### Formato:
 * 👽 Estilo *space Invaders* 🛸
